@@ -194,12 +194,17 @@ section#photo {
     display: block;
     width: 8000px;
     height: 100%;
+    
 }
 
 #slider .slide {
     float: left;
     width: 1024px;
     height: 500px;
+    background-color: white;
+    display: grid;
+    place-items: center;
+    /* text-align : center;     */
 }
 
 
@@ -300,17 +305,27 @@ section#photo {
 
 #photo .slide:nth-child(1) {
     background: url("img/click1.jpg") no-repeat center;
-    background-size: cover;
+    background-size: contain;
 }
 
 #photo .slide:nth-child(2) {
     background: url("img/click2.jpg") no-repeat center;
-    background-size: cover;
+    background-size: contain;
 }
 
 #photo .slide:nth-child(3) {
     background: url("img/click3.jpg") no-repeat center;
-    background-size: cover;
+    background-size: contain;
+}
+
+#photo .slide:nth-child(4) {
+    background: url("img/click4.jpg") no-repeat center;
+    background-size: contain;
+}
+
+#photo .slide:nth-child(5) {
+    background: url("img/click5.jpg") no-repeat center;
+    background-size: contain;
 }
 
 #photo .slide.active {
