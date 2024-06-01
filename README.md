@@ -1,6 +1,6 @@
 # eventLeaflet
 
-I created a single web page(E-Leaflet), which is an electronic event leaflet.
+a single web page(E-Leaflet), which is an electronic event leaflet.
 
 Features are as below
 
